@@ -67,7 +67,7 @@ export default function FoodGallery() {
       Mastering the Art of Desi Food
       </h1>
       <div className="container mx-auto px-2 ">
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-6 mb-16 ">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 mb-16 ">
           {foodItems.map((item) => (
             <div
               key={item.id}
