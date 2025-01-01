@@ -16,9 +16,13 @@ export default function Home() {
   <Hero/>
    <FeaturesSection/>
    <FoodGallery/>
-   <div className="  ml-32 flex mt-8 mb-8  underline">
-  <Link href="/blogs" className="text-lime-600 text-[22px]">View detailed recipes here  <MoveRight className="inline-flex ml-1"size={33} /></Link>
-  </div>
+   <div className="flex mt-8 mb-8 underline justify-center sm:ml-28 md:justify-start">
+  <Link 
+    href="/blogs"  className="text-lime-600 text-[22px] text-center md:text-left"> View detailed recipes here 
+    <MoveRight className="inline-flex ml-1" size={33} />
+  </Link>
+</div>
+
      </div> 
     </>
   )
