@@ -47,7 +47,7 @@ export default function Footer() {
 
           {/* Links Section */}
           <div className="text-center md:text-left">
-            <h3 className="text-xl font-bold mb-4">Links</h3>
+            <h3 className="text-xl font-bold mb-4 text-white">Links</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/" className="text-gray-200 hover:text-lime-400">
@@ -81,7 +81,7 @@ export default function Footer() {
 
           {/* Company Section */}
           <div className="text-center md:text-left">
-            <h3 className="text-xl font-bold mb-4">Company</h3>
+            <h3 className="text-xl font-bold mb-4 text-white ">Company</h3>
             <ul className="space-y-2">
               <li className="text-gray-200 hover:text-lime-400">
                 
@@ -113,4 +113,3 @@ export default function Footer() {
     </footer>
   )
 }
-
