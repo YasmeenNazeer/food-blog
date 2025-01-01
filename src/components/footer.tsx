@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-50 pt-16 pb-4">
+    <footer className="bg-black pt-16 pb-4">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Logo and Description Section */}
@@ -12,7 +12,7 @@ export default function Footer() {
             <div className="flex justify-center md:justify-start mb-4">
               <div className="relative ">
                 <Image
-                  src="/food-logo.png"
+                  src="/desii.png"
                   alt="Food Blog Logo"
                   width={500}
                   height={500}
@@ -20,7 +20,7 @@ export default function Footer() {
                 />
               </div>
             </div>
-            <p className="text-gray-600 max-w-xs mx-auto md:mx-0 ">
+            <p className="text-gray-300 max-w-xs mx-auto md:mx-0 ">
             Desi foods refer to the traditional cuisines originating from South Asia, India, Pakistan.
             </p>
             <div className="flex gap-4 mt-6 justify-center md:justify-start">
@@ -50,12 +50,12 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4">Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="text-gray-600 hover:text-lime-400">
+                <Link href="/" className="text-gray-200 hover:text-lime-400">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-gray-600 hover:text-lime-500">
+                <Link href="/about" className="text-gray-200 hover:text-lime-500">
                   About
                 </Link>
               </li>
@@ -63,7 +63,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="#cards"
-                  className="text-gray-600 hover:text-lime-500"
+                  className="text-gray-200 hover:text-lime-500"
                 >
                   Blogs
                 </Link>
@@ -71,7 +71,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/contact"
-                  className="text-gray-600 hover:text-lime-500"
+                  className="text-gray-200 hover:text-lime-500"
                 >
                   Contact
                 </Link>
@@ -83,17 +83,17 @@ export default function Footer() {
           <div className="text-center md:text-left">
             <h3 className="text-xl font-bold mb-4">Company</h3>
             <ul className="space-y-2">
-              <li className="text-gray-600 hover:text-lime-400">
+              <li className="text-gray-200 hover:text-lime-400">
                 
                   Terms & Conditions
                 
               </li>
-              <li className="text-gray-600 hover:text-lime-400"
+              <li className="text-gray-200 hover:text-lime-400"
                 >
                   Privacy Policy
               
               </li>
-              <li className="text-gray-600 hover:text-lime-400"
+              <li className="text-gray-200 hover:text-lime-400"
                 >
                   Cookie Policy
                 
@@ -104,9 +104,9 @@ export default function Footer() {
 
         {/* Copyright Section */}
         <div className="border-t border-gray-200 pt-4 text-center">
-          <p className="text-gray-600 text-sm">
+          <p className="text-gray-200 text-sm">
             Copyright © {new Date().getFullYear()}{" "}
-            <span className="text-lime-500">Desi Tadka</span>. All Rights Reserved.
+            <span className="text-lime-400 font-mono text-[17px]">DeSI CuiSIne</span>. All Rights Reserved.
           </p>
         </div>
       </div>
